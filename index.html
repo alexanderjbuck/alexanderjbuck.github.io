@@ -3,92 +3,181 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alex Buck</title>
-  <meta name="description" content="Alex Buck — Senior Principal Software Engineer. Java / Spring Boot, microservices, and modern web development.">
+  <title>Alex Buck — Senior Principal Software Engineer</title>
+  <meta name="description" content="Alex Buck — Senior Principal Software Engineer. Java / Spring Boot, microservices, real-time systems, and modern web development.">
+  <link rel="canonical" href="https://www.alexanderjbuck.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alex Buck — Senior Principal Software Engineer">
+  <meta property="og:description" content="Java / Spring Boot, microservices, real-time systems, and modern web development.">
+  <meta property="og:url" content="https://www.alexanderjbuck.com/">
+  <meta name="theme-color" content="#0b57d0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <header class="header">
-      <h1>Alex Buck</h1>
-      <p class="role"><strong>Senior Principal Software Engineer</strong></p>
-      <p class="location">Washington DC-Baltimore Area</p>
-      <p class="summary">
-        Software developer with extensive experience in <strong>Java / Spring Boot</strong>,
-        microservices, real-time systems, and modern web/mobile development.
-      </p>
-    </header>
-
-    <section>
-      <h2>Professional Experience</h2>
-
-      <div class="experience">
-        <article>
-          <h3>Nightwing — Senior Principal Software Engineer</h3>
-          <ul>
-            <li>Designed and developed Java / Spring Boot applications supporting operational scheduling and resource management</li>
-            <li>Led migration of legacy applications to Spring Boot microservices deployed as Docker containers</li>
-            <li>Built real-time data aggregation and streaming services enabling live updates across systems</li>
-            <li>Served as SCRUM Master guiding major UI framework transitions with zero disruption to end users</li>
-          </ul>
-        </article>
-
-        <article>
-          <h3>TRMI Systems Integration</h3>
-          <ul>
-            <li>Developed vehicle classification and violation enforcement software interfacing with RFID readers, inductive loop sensors, and imaging systems</li>
-            <li>Created R-based analytics tools for monitoring and maintaining image capture quality</li>
-          </ul>
-        </article>
-
-        <article>
-          <h3>United States Marine Corps Reserve</h3>
-          <ul>
-            <li>Avionics technician specializing in electronic systems repair on CH-53 Sea Stallion and CH-46 Sea Knight helicopters</li>
-            <li>Part of the team that established first forward-deployed component-level repair capability, significantly reducing aircraft downtime</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education &amp; Certifications</h2>
-      <ul>
-        <li>M.S. Computer Science (Data Science focus) — Capitol Technology University</li>
-        <li>Certified SAFe 4 Agilist</li>
-        <li>Certified Scrum Master</li>
+  <div class="layout">
+    <nav class="side-nav" aria-label="On this page">
+      <p class="side-nav-label">On this page</p>
+      <ul class="side-nav-list">
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#experience" data-nav>Experience</a></li>
+        <li><a href="#education" data-nav>Education</a></li>
+        <li><a href="#projects" data-nav>Projects</a></li>
+        <li><a href="#earlier" data-nav>Earlier work</a></li>
+        <li><a href="#connect" data-nav>Connect</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <section>
-      <h2>Selected Projects</h2>
-      <ul>
-        <li>
-          <strong><a href="https://www.navscout.com">navscout</a></strong> —
-          Real-time weather navigation app with route forecasting, destination prediction from travel history, and telemetry
-        </li>
-        <li>
-          <strong>Ray Tracer</strong> — JavaScript-based ray tracing engine prototype<br>
-          <a href="https://github.com/alexanderjbuck/raytracer">github.com/alexanderjbuck/raytracer</a>
-        </li>
-        <li>
-          Golden Gate Bridge Toll Collection Software — Integrated payment, violation processing, and hardware systems
-        </li>
-      </ul>
-    </section>
+    <main class="page">
+      <header class="header" id="about">
+        <h1>Alex Buck</h1>
+        <p class="role"><strong>Senior Principal Software Engineer</strong></p>
+        <p class="location">Washington DC-Baltimore Area</p>
+        <p class="summary">
+          Software developer with extensive experience in <strong>Java / Spring Boot</strong>,
+          microservices, real-time systems, and modern web/mobile development.
+          Also work with JavaScript/React, R, and Rust.
+        </p>
+        <p class="about-personal">
+          Outside of work I practice Brazilian jiu-jitsu, take ballroom dance,
+          build side projects, and spend time with my family.
+        </p>
+      </header>
 
-    <section>
-      <h2>Connect</h2>
-      <ul class="connect">
-        <li><a href="https://www.alexanderjbuck.com">alexanderjbuck.com</a></li>
-        <li><a href="https://www.linkedin.com/in/alexanderjbuck">LinkedIn</a></li>
-        <li><a href="https://github.com/alexanderjbuck">GitHub</a></li>
-      </ul>
-    </section>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Professional Experience</h2>
 
-    <footer class="footer">
-      <p>Focused on building useful software, adapting development processes to take advantage of agentic development.</p>
-    </footer>
-  </main>
+        <div class="experience">
+          <article>
+            <h3>Nightwing <span class="employer-note">(formerly Leidos)</span> — Senior Principal Software Engineer</h3>
+            <ul>
+              <li>Designed and developed Java / Spring Boot applications supporting operational scheduling and resource management</li>
+              <li>Led migration of legacy applications to Spring Boot microservices deployed as Docker containers, then refined the process with a cross-functional team to reduce lead time</li>
+              <li>Built real-time data aggregation and streaming services enabling live updates across systems</li>
+              <li>Served as SCRUM Master guiding major UI framework transitions with zero disruption to end users</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>TRMI Systems Integration</h3>
+            <ul>
+              <li>Developed vehicle classification and violation enforcement software interfacing with RFID readers, inductive loop sensors, and imaging systems</li>
+              <li>Created R-based analytics tools for monitoring and maintaining image capture quality</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>United States Marine Corps Reserve</h3>
+            <ul>
+              <li>Avionics technician specializing in electronic systems repair on CH-53 Sea Stallion and CH-46 Sea Knight helicopters</li>
+              <li>Part of the team that established first forward-deployed component-level repair capability in Al Asad, Iraq (2004), significantly reducing aircraft downtime</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education &amp; Certifications</h2>
+        <ul>
+          <li>M.S. Computer Science (Data Science focus) — Capitol Technology University</li>
+          <li>Certified SAFe 4 Agilist</li>
+          <li>Certified Scrum Master</li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Selected Projects</h2>
+        <div class="project-list">
+          <article class="project">
+            <h3><a href="https://www.navscout.com" rel="noopener noreferrer" target="_blank">navscout</a></h3>
+            <p>
+              Driving into a storm mid-route is no fun. navscout forecasts weather along an entire drive
+              so you can plan around it — with route forecasting, destination prediction from travel history,
+              and telemetry.
+            </p>
+          </article>
+          <article class="project">
+            <h3>Ray Tracer</h3>
+            <p>
+              JavaScript-based ray tracing engine prototype.
+              <a href="https://github.com/alexanderjbuck/raytracer" rel="noopener noreferrer" target="_blank">github.com/alexanderjbuck/raytracer</a>
+            </p>
+          </article>
+          <article class="project">
+            <h3>Golden Gate Bridge Toll Collection Software</h3>
+            <p>Integrated payment, violation processing, and hardware systems for toll collection.</p>
+          </article>
+          <article class="project">
+            <h3>
+              <a href="https://medium.com/@alexanderjbuck/conserving-forests-with-decision-trees-dde66b62c35b" rel="noopener noreferrer" target="_blank">Conserving Forests with Decision Trees</a>
+            </h3>
+            <p>Medium write-up applying decision trees to U.S. wildfire data — a data-science side exploration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="earlier" aria-labelledby="earlier-heading">
+        <h2 id="earlier-heading">Earlier Work</h2>
+        <p class="section-intro">A few older projects that were more fun than they needed to be.</p>
+        <div class="project-list">
+          <article class="project">
+            <h3>Mario AI Contest (2010)</h3>
+            <p>Entry for the 2010 Mario AI Contest — placed <strong>3rd</strong>.</p>
+            <div class="video">
+              <iframe
+                src="https://www.youtube.com/embed/GtYc--cCzxI"
+                title="Mario AI Contest entry"
+                loading="lazy"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </article>
+          <article class="project">
+            <h3>Autonomous Vehicle — Sparkfun AVC (2011)</h3>
+            <p>
+              Built and entered “Computron 2K10” in the 2011 Sparkfun Autonomous Vehicle Competition
+              after learning embedded electronics on AVR. Learned a lot about underpowered platforms
+              and testing with all components connected.
+            </p>
+            <div class="video">
+              <iframe
+                src="https://www.youtube.com/embed/X5aKVkl8vgI"
+                title="Autonomous vehicle Computron 2K10"
+                loading="lazy"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </article>
+          <article class="project">
+            <h3>RoboCup — Sony Aibo Soccer</h3>
+            <p>Senior project: programming Sony Aibo robots to play soccer.</p>
+            <div class="video">
+              <iframe
+                src="https://www.youtube.com/embed/biVu1ReRf9w"
+                title="RoboCup Aibo soccer clip"
+                loading="lazy"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="connect" aria-labelledby="connect-heading">
+        <h2 id="connect-heading">Connect</h2>
+        <ul class="connect">
+          <li><a href="mailto:alexanderjbuck@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/alexanderjbuck" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/alexanderjbuck" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+          <li><a href="https://medium.com/@alexanderjbuck" rel="noopener noreferrer" target="_blank">Medium</a></li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>Building useful software and modernizing how teams ship with AI-assisted development.</p>
+      </footer>
+    </main>
+  </div>
+  <script src="nav.js"></script>
 </body>
 </html>
